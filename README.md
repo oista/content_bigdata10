@@ -4,7 +4,7 @@
 
 Вы можете склонировать все текущие материалы себе локально с помощью стандартной команды git:
 
-`git clone https://github.com/newprolab/content_bigdata9`
+`git clone https://github.com/newprolab/content_bigdata10`
 
 И в дальнейшем синхронизировать обновления:
 
