@@ -142,7 +142,7 @@ Traceback (most recent call last):
 ImportError: No module named happybase
 ```
 
-:warning: Важно! Доступ к логам возможен только через [прокси]((../../extra/proxy.md))!
+:warning: Важно! Доступ к логам возможен только через [прокси](../../extra/proxy.md)!
 
 **[6]** У HBase есть веб-интерфейс: http://master.cluster-lab.com:16010/master-status. Здесь вы, например, можете посмотреть, какие таблицы созданы и есть ли среди них ваша.
 
