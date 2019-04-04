@@ -13,6 +13,15 @@
 
 ## Как настроить туннель
 
+# MAC only
+
+Откройте терминал и запустите каманды
+
+`$ pip install sshuttle`
+
+`$ sudo sshuttle -r ivan.ivanov@master.cluster-lab.com 0.0.0.0/0 --ssh-cmd 'ssh -i <полный путь к приватному ключу>'`
+запросит пароль от учетки мака
+
 # MAC, Linux
 
 Откройте терминал и запустите каманду
