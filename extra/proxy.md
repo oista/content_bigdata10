@@ -26,14 +26,14 @@
 
 Откройте терминал и запустите каманду
 
-`ssh master.cluster-lab.com -p 2225 -l proxy -D localhost:1080 -N`
+`ssh master.cluster-lab.com -p 2225 -l name.surname -D localhost:1080 -N`
 
-Введите пароль, который тут не приводится по соображениям безопасности.
+Введите пароль, который тут не приводится по соображениям безопасности (пароль от личного кабинета).
 
 Если все нормально, то вы увидите такое:
 
 ```
-$ ssh master.cluster-lab.com -p 2225 -l proxy -D localhost:1080 -N
+$ ssh master.cluster-lab.com -p 2225 -l name.surname -D localhost:1080 -N
 The authenticity of host '[master.cluster-lab.com]:2225 ([46.16.190.70]:2225)' can't be established.
 ECDSA key fingerprint is SHA256:7MKLgfuPQRyZmONxDsmQPNf+KmBehPNfuV07WgJrgfk.
 Are you sure you want to continue connecting (yes/no)? yes
@@ -48,8 +48,8 @@ proxy@master.cluster-lab.com's password:
 ```
 Host nplp
 HostName master.cluster-lab.com 
-Port 2225
-User proxy
+Port 22
+User name.surname
 DynamicForward 1080
 
 ```
@@ -58,7 +58,7 @@ DynamicForward 1080
 
 ### Windows
 
-Настройте новую сессию Putty на proxy@master.cluster-lab.com port 2225
+Настройте новую сессию Putty на name.surname@master.cluster-lab.com port 22
 
 Будьте внимательны и настройте оцпии ssh:
 
@@ -76,7 +76,7 @@ DynamicForward 1080
 
 Не забудьте сохранить сессию!
 
-Открываем, вводим пароль, при успешном логине ничего не происходит, промпта нет.
+Открываем, вводим пароль (пароль от личного кабинета), при успешном логине ничего не происходит, промпта нет.
 
 ## Настройка браузера
 
