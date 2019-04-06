@@ -26,19 +26,19 @@
 
 Откройте терминал и запустите каманду
 
-`ssh data.cluster-lab.com -p 2225 -l proxy -D localhost:1080 -N`
+`ssh master.cluster-lab.com -p 2225 -l proxy -D localhost:1080 -N`
 
 Введите пароль, который тут не приводится по соображениям безопасности.
 
 Если все нормально, то вы увидите такое:
 
 ```
-$ ssh data.cluster-lab.com -p 2225 -l proxy -D localhost:1080 -N
-The authenticity of host '[data.cluster-lab.com]:2225 ([46.16.190.70]:2225)' can't be established.
+$ ssh master.cluster-lab.com -p 2225 -l proxy -D localhost:1080 -N
+The authenticity of host '[master.cluster-lab.com]:2225 ([46.16.190.70]:2225)' can't be established.
 ECDSA key fingerprint is SHA256:7MKLgfuPQRyZmONxDsmQPNf+KmBehPNfuV07WgJrgfk.
 Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '[data.cluster-lab.com]:2225,[46.16.190.70]:2225' (ECDSA) to the list of known hosts.
-proxy@data.cluster-lab.com's password:
+Warning: Permanently added '[master.cluster-lab.com]:2225,[46.16.190.70]:2225' (ECDSA) to the list of known hosts.
+proxy@master.cluster-lab.com's password:
 
 ```
 После пароля - ничего не происходит. Но есть туннель. Переходите в секцию Настройка браузера.
@@ -47,7 +47,7 @@ proxy@data.cluster-lab.com's password:
 
 ```
 Host nplp
-HostName data.cluster-lab.com 
+HostName master.cluster-lab.com 
 Port 2225
 User proxy
 DynamicForward 1080
@@ -58,7 +58,7 @@ DynamicForward 1080
 
 ### Windows
 
-Настройте новую сессию Putty на proxy@data.cluster-lab.com port 2225
+Настройте новую сессию Putty на proxy@master.cluster-lab.com port 2225
 
 Будьте внимательны и настройте оцпии ssh:
 
