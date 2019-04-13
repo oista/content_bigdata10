@@ -1,6 +1,6 @@
 ## Лаба 3. Классифицировать интернет-пользователей на группы по логу посещения сайтов с помощью Apache Hive
 
-##### [![New Professions Lab — Big Data 8](http://data.newprolab.com/public-newprolab-com/npl7.svg)](https://github.com/newprolab/content_bigdata9)
+##### [![New Professions Lab — Big Data 10](http://data.newprolab.com/public-newprolab-com/npl7.svg)](https://github.com/newprolab/content_bigdata10)
 
 ### Дедлайн
 
