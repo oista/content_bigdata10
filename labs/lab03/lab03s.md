@@ -1,6 +1,6 @@
 ## ✨ Лаба 3. Суперачивка. По логу посещений найти сайты, релевантные для определённой группы пользователей
 
-##### [![New Professions Lab — Big Data 9](http://data.newprolab.com/public-newprolab-com/npl7.svg)](https://github.com/newprolab/content_bigdata9)
+##### [![New Professions Lab — Big Data 10](http://data.newprolab.com/public-newprolab-com/npl7.svg)](https://github.com/newprolab/content_bigdata10)
 
 ### Дедлайн
 
