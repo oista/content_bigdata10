@@ -1,6 +1,6 @@
 ## Лаба 4. Спрогнозировать отток клиентов банка по историческим данным
 
-##### [![New Professions Lab — Big Data 9](extra/images/npl7.svg)](https://github.com/newprolab/content_bigdata9)
+##### [![New Professions Lab — Big Data 10](extra/images/npl7.svg)](https://github.com/newprolab/content_bigdata10)
 
 ### Дедлайн
 
