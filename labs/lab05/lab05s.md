@@ -1,6 +1,6 @@
 ## ✨ Лаба 5. Суперачивка. Классификация отзывов фильмов из IMDB на позитивные и негативные на платформе Kaggle
 
-##### [![New Professions Lab — Big Data 9](extra/images/npl7.svg)](https://github.com/newprolab/content_bigdata9)
+##### [![New Professions Lab — Big Data 10](extra/images/npl7.svg)](https://github.com/newprolab/content_bigdata10)
 
 ### Дедлайн
 
