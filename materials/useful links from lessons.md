@@ -11,6 +11,7 @@ How-to: Use HBase Bulk Loading, and Why - Cloudera Engineering Blog - https://bl
 py.CheckiO - Python coding challenges and exercises with solutions for beginners and advanced - https://py.checkio.org/
 
 
+Python: пайплайны (tutorial) - https://nbviewer.jupyter.org/github/Yorko/mlcourse_open/blob/master/jupyter_russian/tutorials/pipeline_featureunion_datamove.ipynb?flush_cache=true
 
 Python: категориальные признаки - https://dyakonov.org/2016/08/03/python-категориальные-признаки/
 
@@ -25,3 +26,5 @@ https://www.kaggle.com/dgawlik/house-prices-eda - House Prices EDA
 https://www.kaggle.com/dansbecker/handling-missing-values - Handling Missing Values
 
 Основы Natural Language Processing для текста - https://m.habr.com/ru/company/Voximplant/blog/446738/
+
+Tutorials на различные темы ML: https://github.com/Yorko/mlcourse.ai/wiki/Individual-projects-and-tutorials-(in-Russian)
